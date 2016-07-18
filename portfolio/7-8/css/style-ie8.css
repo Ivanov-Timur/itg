@@ -1,0 +1,59 @@
+.about-company{
+	background-color: #503b5a;
+}
+.logo__text,
+.copy__head{
+	font-size: 36px;
+	letter-spacing: -2px;
+}
+.menu__item{
+	margin-left: 22px;
+	letter-spacing: -1px;
+}
+.menu__link{
+	font-size: 20px;
+}
+
+.next{
+	background-image: url(../img/right-arrow.png);
+	background-repeat: no-repeat;
+}
+.slider{
+	margin: 0 auto;
+	float: none;
+	display: table;
+}
+
+.slider__link,
+.slider-start .slider__link{
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 3px solid rgb(0, 0, 0);
+}
+.slider__active:before{
+	width: 7px;
+	height: 7px;
+	margin: 2px;
+	background-color: black;
+}
+.about__head{
+	font-size: 22px;
+	letter-spacing: -2px;
+}
+.starts:before{
+	display: none;
+}
+.start__head{
+	font-size: 28px;
+	letter-spacing: -2px;
+}
+.slider-start{
+	margin-top: 20px;
+}
+.update__text{
+	font-size: 14px;
+}
+.comments__head,
+.categories__head{
+	font-size: 27px;
+	letter-spacing: -1px;
+}
